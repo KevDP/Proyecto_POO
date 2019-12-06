@@ -1,0 +1,25 @@
+Datos de las tarjetas:
+
+	Tarjeta 1:
+
+		Número de tarjeta: 4152 3134 1761 2654
+		Estado de Cuenta: 1000.00
+		CVV: 428
+		Fecha de expiración: 01/23
+		Contraseña: 1234 (se puede modificar dando "no" cuando te indique si la tienes)
+
+	Tarjeta 2:
+
+		Número de tarjeta: 5578 0900 3958 6400
+		Estado de Cuenta: 2000.00
+		CVV: 589
+		Fecha de expiración: 07/24
+		NIP: 1234 (se puede modificar dando "no" cuando te indique si la tienes)
+
+	Tarjeta 3:
+
+		Número de tarjeta: 4152 4143 1671 3488
+		Estado de Cuenta: 12000.00
+		CVV: 526
+		Fecha de expiración: 03/21
+		Contraseña: 1234 (se puede modificar dando "no" cuando te indique si la tienes)
