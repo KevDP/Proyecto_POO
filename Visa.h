@@ -15,14 +15,14 @@ class Visa : public Tarjeta{            // Definimos la clase hija Visa junto co
 
     public:                                 // Métodos
 
-        Visa(string Num_Tarjeta_, float Estado_dCuenta_, int Datos_CVV,string Datos_F_exp,int Contrasenia_); // Formato de los objetos Visa
+        Visa(string Num_Tarjeta_, float Estado_dCuenta_, int Datos_CVV,string Datos_F_exp,string Contrasenia_); // Formato de los objetos Visa
 
         void pedir_Contrasenia();           // Funciones
         void crear_Contrasenia();
         void pagar_Visa();
         };
 
-    Visa::Visa(string Num_Tarjeta_, float Estado_dCuenta_,int Datos_CVV,string Datos_F_exp,int Contrasenia_) : Tarjeta(Num_Tarjeta_, Estado_dCuenta_, Datos_CVV, Datos_F_exp){
+    Visa::Visa(string Num_Tarjeta_, float Estado_dCuenta_,int Datos_CVV,string Datos_F_exp,string Contrasenia_) : Tarjeta(Num_Tarjeta_, Estado_dCuenta_, Datos_CVV, Datos_F_exp){
     // Constructor del objeto Visa junto con los atributos que ya se conocen previamente de la clase padre
 
         Contrasenia = Contrasenia_;
