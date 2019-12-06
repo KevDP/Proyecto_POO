@@ -7,8 +7,6 @@ acciones, sin embargo, para la funcion de pagar un servicio, se requerir�
 crear una contrase�a si no se tiene alguna previamente. */
 
 #include <iostream>
-#include <stdlib.h>
-#include <sstream>
 
 using namespace std;
 void limp_pant(){                   // Esta función limpiara la pantalla

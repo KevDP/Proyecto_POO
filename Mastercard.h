@@ -3,7 +3,6 @@
 #ifndef MASTERCARD_H_
 #define MASTERCARD_H_
 #include <iostream>
-#include <string>
 #include "Tarjeta.h"            // Header Tarjeta: clase padre
 
 using namespace std;
@@ -65,17 +64,17 @@ class Mastercard : public Tarjeta{          // Definimos la clase hija Mastercar
             pedir_NIP();    // Para terminar el proceso de crear una contraseña es necesario confirmar la contraseña, ingresar el CVV y la fecha de expiración.
             datos1.pedir_CVV();
             datos1.pedir_Fecha_exp();
-}
-    float P_cantidad;
+        }
+        float P_cantidad;
         cout<<"Cantidad que desea pagar $";
         cin>>P_cantidad;
         while(P_cantidad>get_Estado_dCuenta()){       // Mientras la cantidad de dinero a pagar el servicio sea mayor que el estado de cuenta, mandará el error.
             cout<<"\n Error! Cantidad invalida, efectivo en tarjeta insuficiente, intenta de nuevo. $";
             cin>>P_cantidad;
-}
+        }
         Estado_dCuenta-=P_cantidad;    //Estado_dCuenta-= Estado_dCuenta - R_cantidad
-        cout<<" \n - Pago realizado con exito - \n ";
+            cout<<" \n - Pago realizado con exito - \n ";
         Fondo_tarjeta();    // Mostrar el fondo en la tarjeta.
-}
+    }
 
 #endif // MASTERCARD_H_

@@ -6,13 +6,13 @@ using namespace std;
 
 class Datos{        // Determinamos la clase padre
 
-private:
+    private:
 
-int CVV;        // Codigo de seguridad de 3 digitos
-string Fecha_exp;   // Fecha de expiracion
+        int CVV;        // Codigo de seguridad de 3 digitos
+        string Fecha_exp;   // Fecha de expiracion
 
-public:
-    Datos(){};          // Constructor por default
+    public:
+        Datos(){};          // Constructor por default
         void modif(int CVV_, string Fecha_exp_){        // Determinar los datos de la tarjeta en cada objeto
             CVV = CVV_;
             Fecha_exp = Fecha_exp_;
